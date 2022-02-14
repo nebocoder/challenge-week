@@ -17,5 +17,7 @@ function calculate() {
     } else {
       costEl.textContent = totalCost
     }
+  } else {
+    costEl.textContent = "Please select both options."
   }
 }
