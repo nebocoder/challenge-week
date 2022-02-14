@@ -2,6 +2,7 @@ document.getElementById("btn").addEventListener("click", calculate)
 let costEl = document.getElementById("cost-el")
 const foodSelect = document.getElementById("food-select")
 const transportSelect = document.getElementById("transport-select")
+const balloonCheckbox = document.getElementById("balloon-checkbox")
 
 function calculate() {
   // 1. Write the JavaScript to calculate the total cost of the selected options from the form.
@@ -11,6 +12,10 @@ function calculate() {
   const totalCost = foodPrice + transportPrice
 
   if (foodPrice && transportPrice) {
-    costEl.textContent = totalCost
+    if (balloonCheckbox.checked) {
+      costEl.textContent = `${totalCost} + 🎈🎈🎈`
+    } else {
+      costEl.textContent = totalCost
+    }
   }
 }
