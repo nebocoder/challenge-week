@@ -15,7 +15,11 @@ body {
 }
 
 body {
-  background: var(--lavender);
+  /* Image credit: https://unsplash.com/photos/KsXMr9DasZE */
+  background-color: var(--light-pink);
+  background: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,12 +32,18 @@ body {
 .card {
   min-width: 270px;
   border-radius: 5px;
-  background: var(--yellow);
   font-size: 24px;
+  margin-bottom: 2.5em;
   padding: 1em;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgba(240, 200, 215, 0.2);
+  color: white;
+  text-shadow: 0 0 5px rgba(90, 20, 100, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(90, 20, 100, 0.35);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .card p {
@@ -58,8 +68,10 @@ form label {
 
 form *:not(label) {
   box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-radius: 5px;
-  border: none;
+  background: rgba(235, 215, 220, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(90, 20, 100, 0.35);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
