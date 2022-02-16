@@ -21,7 +21,7 @@ body {
   align-items: center;
   min-width: 500px;
   color: var(--raisin);
-  background-color: var(--light-pink);
+  background-color: var(--white);
   font-family: "Karla", sans-serif;
 }
 
@@ -33,30 +33,44 @@ body {
 }
 
 .paragraph {
-  background: var(--yellow);
-  color: var(--raisin);
   min-width: 270px;
   padding: 1em;
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-radius: 5px;
+  background: rgba(218, 158, 180, 0.5);
+  text-shadow: 0 0 5px rgba(90, 20, 100, 0.45);
+  box-shadow: 0 6px 32px 0 rgba(90, 20, 100, 0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 button {
   font-family: inherit;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-radius: 5px;
-  border: none;
+  font-weight: 700;
   padding: 1em 2em;
-  color: var(--white);
-  background: var(--deep-pink);
+  background: rgba(240, 200, 215, 0.2);
+  text-shadow: 0 0 3px rgba(90, 20, 100, 0.75);
+  box-shadow: 0 6px 32px 0 rgba(90, 20, 100, 0.25);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 button:hover,
 button:focus {
   transform: scale(1.02);
   cursor: pointer;
+}
+
+#bottom-wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+#top-wave {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
