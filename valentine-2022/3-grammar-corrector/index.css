@@ -1,0 +1,76 @@
+:root {
+  --yellow: #fbf3ab;
+  --light-pink: #f0b9dd;
+  --lavender: #c7b9ff;
+  --deep-pink: #f04c86;
+  --raisin: #2b283a;
+  --white: #fff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  color: var(--raisin);
+  background-color: var(--white);
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  min-width: 270px;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+  background: rgba(218, 158, 180, 0.5);
+  text-shadow: 0 0 5px rgba(90, 20, 100, 0.45);
+  box-shadow: 0 6px 32px 0 rgba(90, 20, 100, 0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+button {
+  font-family: inherit;
+  font-weight: 700;
+  padding: 1em 2em;
+  background: rgba(240, 200, 215, 0.2);
+  text-shadow: 0 0 3px rgba(90, 20, 100, 0.75);
+  box-shadow: 0 6px 32px 0 rgba(90, 20, 100, 0.25);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+#bottom-wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+#top-wave {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
