@@ -24,32 +24,49 @@ body {
   height: 100vh;
   min-width: 500px;
   color: var(--raisin);
-  background-color: var(--yellow);
   font-family: "Karla", sans-serif;
+  background-color: var(--light-pink);
+  background-image: radial-gradient(var(--deep-pink) 4px, transparent 4px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  background-color: var(--light-pink);
+}
+
+h1 {
+  text-shadow: 0 0 7px rgba(238, 214, 223, 0.75),
+    0 0 10px rgba(80, 12, 39, 0.35);
 }
 
 p {
-  background: var(--light-pink);
-  color: var(--raisin);
   min-height: 50px;
   width: 80%;
   padding: 1em;
   text-align: center;
   font-size: 1.5rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-radius: 5px;
+  background: rgba(240, 200, 215, 0.4);
+  color: var(--white);
+  text-shadow: 0 0 5px rgba(90, 20, 100, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(90, 20, 100, 0.35);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 button {
   font-family: inherit;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  border-radius: 5px;
-  border: none;
+  font-size: 1em;
+  font-weight: 700;
   padding: 1em 2em;
+  margin-top: 1.5em;
   color: var(--white);
-  background: var(--deep-pink);
+  background: rgba(226, 74, 130, 0.3);
+  text-shadow: 0 0 5px rgba(90, 20, 100, 0.75);
+  box-shadow: 0 6px 32px 0 rgba(90, 20, 100, 0.3);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 button:hover,
