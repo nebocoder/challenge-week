@@ -62,7 +62,7 @@ button:focus {
 .heart:after {
   content: "";
   position: absolute;
-  background-color: var(--white);
+  background-color: inherit;
   border-radius: 50%;
   height: 100px;
   width: 100px;
