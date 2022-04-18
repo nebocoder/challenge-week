@@ -7,3 +7,7 @@
 3. [💞 Grammar Corrector](https://scrimba.com/scrim/codc9415f9216806cb777694e)
 4. [💞 Duplicate Emojis](https://scrimba.com/scrim/co532498689718aa5aedbc8f2)
 5. [💞 Heart Customiser](https://scrimba.com/scrim/coeef4ae9b63b4cba35b90dc6)
+
+## Earth Day 2022:
+
+1. [🌍 Earth Poem](https://scrimba.com/scrim/coa9943e6ac297bf2573d3fc4)
