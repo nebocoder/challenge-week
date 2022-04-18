@@ -7,12 +7,13 @@ const obj = {
   adjective: 'clean',
   emojis: ['🚂', '🌍', '🛼', '🍩', '🏖', '🎠', '🔮'],
   sentence: function () {
-    const { color1, color2, planet, adjective } = this;
-    return `Forests are ${color1}, oceans are ${color2}. Keep the ${planet} ${adjective}, for me and for you.`;
+    const { color1, color2, planet, adjective, emojis } = this;
+    return `Forests are <strong style="color:green">${color1}</strong>, oceans are <strong style="color:purple">${color2}</strong>.
+    Keep the <strong style="color:blue">${planet}</strong> ${emojis[1]} <strong>${adjective}</strong>, for me and for you.`;
   },
 };
 
-document.getElementById('poem').textContent = obj.sentence();
+document.getElementById('poem').innerHTML = obj.sentence();
 
 // Task: Changing only the code ABOVE (lines 1-15), complete the poem and render it on the page.
 
