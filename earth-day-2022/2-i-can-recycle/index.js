@@ -4,7 +4,9 @@ const recycleSelect = document.getElementById('recycle-select');
 const recycleBin = document.getElementById('recycle-bin');
 const infoParagraph = document.getElementById('info-paragraph');
 
-function recycle() {}
+function recycle() {
+  recycleBin.innerHTML += `${recycleSelect.value}`;
+}
 
 // Task: Wire up the <select> tag and recycle button so that an emoji of the
 // selected item appears in the DOM each time the recycle button is pressed.
