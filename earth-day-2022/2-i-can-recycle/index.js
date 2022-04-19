@@ -1,5 +1,7 @@
 const recycleBtn = document.getElementById('recycle-btn');
 recycleBtn.addEventListener('click', recycle);
+const emptyBtn = document.getElementById('empty-btn');
+emptyBtn.addEventListener('click', empty);
 const recycleSelect = document.getElementById('recycle-select');
 const recycleBin = document.getElementById('recycle-bin');
 const infoParagraph = document.getElementById('info-paragraph');
@@ -10,6 +12,11 @@ function recycle() {
   } else {
     recycleBin.innerHTML += `${recycleSelect.value}`;
   }
+}
+
+function empty() {
+  recycleBin.innerHTML = '';
+  infoParagraph.textContent = 'Recycled items will appear above ⬆️';
 }
 
 // Task: Wire up the <select> tag and recycle button so that an emoji of the

@@ -58,6 +58,10 @@ select {
   transform: scale(0.96);
 }
 
+#empty-btn {
+  background-color: palevioletred;
+}
+
 .recycle-bin {
   height: 200px;
   width: 40%;
