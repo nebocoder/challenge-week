@@ -5,7 +5,11 @@ const recycleBin = document.getElementById('recycle-bin');
 const infoParagraph = document.getElementById('info-paragraph');
 
 function recycle() {
-  recycleBin.innerHTML += `${recycleSelect.value}`;
+  if (recycleBin.textContent.length > 110) {
+    infoParagraph.textContent = 'Bin is full ⚠️';
+  } else {
+    recycleBin.innerHTML += `${recycleSelect.value}`;
+  }
 }
 
 // Task: Wire up the <select> tag and recycle button so that an emoji of the
