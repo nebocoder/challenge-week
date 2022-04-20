@@ -60,7 +60,7 @@ document.querySelectorAll('.btn').forEach((e) => {
   e.addEventListener('click', () => {
     e.classList.contains('btn-good') ? (score += 5) : (score -= 5);
     activities++;
-    pointsEl.textContent = `${score} points today from ${activities} activities!`;
+    pointsEl.textContent = `Points: ${score}, Activities: ${activities}`;
   });
 });
 
