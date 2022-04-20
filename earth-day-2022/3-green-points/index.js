@@ -42,6 +42,13 @@ const actionsArr = [
 
 function renderBtns() {
   // 1. Render buttons onto page
+  actionsArr.forEach((a) => {
+    const element = a.good
+      ? `<div class="btn btn-good">${a.emoji} ${a.text}</div>`
+      : `<div class="btn btn-bad">${a.emoji} ${a.text}</div>`;
+
+    btnsContainer.innerHTML += element;
+  });
   // 2. Update points
 }
 
