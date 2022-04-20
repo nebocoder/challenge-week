@@ -1,6 +1,9 @@
 const pointsEl = document.getElementById('points-p');
 const btnsContainer = document.getElementById('btns-container');
 
+let score = 0;
+let activities = 0;
+
 const actionsArr = [
   {
     name: 'recycledPaper',
@@ -49,10 +52,17 @@ function renderBtns() {
 
     btnsContainer.innerHTML += element;
   });
-  // 2. Update points
 }
 
 renderBtns();
+
+document.querySelectorAll('.btn').forEach((e) => {
+  e.addEventListener('click', () => {
+    e.classList.contains('btn-good') ? (score += 5) : (score -= 5);
+    activities++;
+    pointsEl.textContent = `${score} points today from ${activities} activities!`;
+  });
+});
 
 // Task: For each action in actionsArr, render a button on the page which matches the design on the slide.
 // The button should show:
