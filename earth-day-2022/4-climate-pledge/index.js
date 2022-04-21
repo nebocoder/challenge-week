@@ -7,6 +7,12 @@ const checkboxesContainer = document.getElementById('checkboxes-container');
 // Part 1: Add validation to check that the name and email fields are filled in and display a warning message if not (you might not need JS for this 😜).
 // Part 2: Hide the form and show a thank you message on submit.
 
+formSubmit.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('form').style.display = 'none';
+  body.innerHTML += '<h1>Thank you! 🌍</h1>';
+});
+
 // stretch goal 1️⃣:  Add warning styling if the name and email fields are empty (you might not need JS for this either)
 
 // stretch goal 2️⃣:  Personalise the thank you message with the user's name.
