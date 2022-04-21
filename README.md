@@ -13,3 +13,4 @@
 1. [🌍 Earth Poem](https://scrimba.com/scrim/coa9943e6ac297bf2573d3fc4)
 2. [🌍 I Can Recycle](https://scrimba.com/scrim/co8c44f0a9a96d6635c8da989)
 3. [🌍 Green Points](https://scrimba.com/scrim/co08e45ada28af898a9cb8350)
+4. [🌍 Climate Pledge](https://scrimba.com/scrim/coc374bca9c4b4d04c5a9b985)
