@@ -4,7 +4,14 @@ const coffeePrice = 3;
 const dailySavings = document.getElementById('daily-savings');
 let savingsPerDayArr = [];
 
-// Task: Based on the number of coffees bought and the reusable cup discount, calculate and render each day's savings in the dailySavings element.
+// Task: Based on the number of coffees bought and the reusable cup discount,
+// calculate and render each day's savings in the dailySavings element.
+
+dailySavings.innerHTML = coffeesPerDay
+  .map((n, i) => {
+    return `<h3>Day ${i + 1}: $${n * reusableCupDiscount}</h3>`;
+  })
+  .join('');
 
 // stretch goal 1️⃣: Show the total savings
 
