@@ -9,7 +9,7 @@ let savingsPerDayArr = [];
 
 dailySavings.innerHTML = coffeesPerDay
   .map((n, i) => {
-    return `<h3>Day ${i + 1}: $${n * reusableCupDiscount}</h3>`;
+    return `<h4>Day ${i + 1}: $${(n * reusableCupDiscount).toFixed(2)}</h4>`;
   })
   .join('');
 
