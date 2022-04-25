@@ -1,5 +1,9 @@
 # Scrimba Challenge Week
 
+Weekly Challenges:
+  - [Valentines 2022](#valentines-2022)
+  - [Earth Day 2022](#earth-day-2022)
+
 ## Valentines 2022:
 
 1. [💞 Gift Selector](https://scrimba.com/scrim/co4394fd8a189270a838e4779)
