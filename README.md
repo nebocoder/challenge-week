@@ -24,4 +24,4 @@ Weekly Challenges:
 
 ## Space 2022:
 
-1. [🌌 Solar System](https://scrimba.com/scrim/cQWw4vUJ)
+1. [🌌 Solar System](https://scrimba.com/scrim/co15f4c53a360d4280afae129)
