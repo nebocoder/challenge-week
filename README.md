@@ -1,8 +1,10 @@
 # Scrimba Challenge Week
 
 Weekly Challenges:
-  - [Valentines 2022](#valentines-2022)
-  - [Earth Day 2022](#earth-day-2022)
+
+- [Valentines 2022](#valentines-2022)
+- [Earth Day 2022](#earth-day-2022)
+- [Space 2022](#space-2022)
 
 ## Valentines 2022:
 
@@ -19,3 +21,7 @@ Weekly Challenges:
 3. [🌍 Green Points](https://scrimba.com/scrim/co08e45ada28af898a9cb8350)
 4. [🌍 Climate Pledge](https://scrimba.com/scrim/coc374bca9c4b4d04c5a9b985)
 5. [🌍 Reusable Cup](https://scrimba.com/scrim/cob404d29a05678a036c53baa)
+
+## Space 2022:
+
+1. [🌌 Solar System](https://scrimba.com/scrim/cQWw4vUJ)
