@@ -11,22 +11,33 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  margin-bottom: 5%;
-  padding: 5%;
+  padding-bottom: 5%;
   font-family: 'Karla', sans-serif;
   background-color: var(--raisin);
   color: var(--yellow);
+  height: 100vh;
 }
 
 h1 {
-  top: 40px;
-  font-size: 40px;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
 }
 
 .fixed {
   position: fixed;
   left: 50%;
   transform: translate(-50%);
+}
+
+.title {
+  top: 20px;
 }
 
 .main {
@@ -43,7 +54,7 @@ h1 {
 }
 
 #facts {
-  bottom: 40px;
+  bottom: 20px;
   padding: 0.5em 1.5em;
   max-width: 50%;
   background-color: var(--raisin);
