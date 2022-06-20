@@ -9,8 +9,18 @@
 }
 
 body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
   background-color: var(--raisin);
   color: white;
+}
+
+h1 {
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
 }
 
 .main {

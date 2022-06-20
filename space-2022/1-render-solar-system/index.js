@@ -3,42 +3,42 @@ const planets = [
   {
     name: 'Mercury',
     diameter: 4879,
-    color: 'grey',
+    color: '#97979f',
   },
   {
     name: 'Venus',
     diameter: 12104,
-    color: 'yellow',
+    color: '#d39c7e',
   },
   {
     name: 'Earth',
     diameter: 12742,
-    color: 'green',
+    color: '#8cb1de',
   },
   {
     name: 'Mars',
     diameter: 6779,
-    color: 'pink',
+    color: '#c67b5c',
   },
   {
     name: 'Jupiter',
     diameter: 139822,
-    color: 'yellow',
+    color: '#d39c7e',
   },
   {
     name: 'Saturn',
     diameter: 116464,
-    color: 'orange',
+    color: '#c5ab6e',
   },
   {
     name: 'Uranus',
     diameter: 50724,
-    color: 'grey',
+    color: '#d5fbfc',
   },
   {
     name: 'Neptune',
     diameter: 49244,
-    color: 'blue',
+    color: '#3e54e8',
   },
 ];
 
@@ -52,7 +52,7 @@ function renderPlanets() {
     const planetEl = document.createElement('div');
     planetEl.classList.add('planet');
     planetEl.style.width = element.diameter;
-    planetEl.style.background = element.color;
+    planetEl.style.background = `linear-gradient(90deg, ${element.color},#223 95%)`;
     solarSystem.appendChild(planetEl);
   }
 }
