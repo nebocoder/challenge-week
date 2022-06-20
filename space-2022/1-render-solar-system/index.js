@@ -59,7 +59,7 @@ function renderPlanets() {
     const planet = planets[i];
     const planetEl = document.createElement('div');
     planetEl.classList.add('planet');
-    planetEl.style.width = planet.diameter;
+    planetEl.style.width = `${planet.diameter}px`;
     planetEl.style.background = `linear-gradient(90deg, ${planet.color},#223 95%)`;
     solarSystem.appendChild(planetEl);
     planetEl.addEventListener('mouseover', () => renderFact(planet));
