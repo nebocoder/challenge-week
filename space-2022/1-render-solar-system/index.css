@@ -1,6 +1,6 @@
 :root {
   --pink: #fbe6f4ff;
-  --yellow: #fffad1ff;
+  --yellow: #fffce2;
   --green: #e1f0e5ff;
   --blue: #b5caf9ff;
   --orange: #f5e6db;
@@ -9,29 +9,45 @@
 }
 
 body {
+  box-sizing: border-box;
   margin: 0;
+  margin-bottom: 5%;
+  padding: 5%;
   font-family: 'Karla', sans-serif;
   background-color: var(--raisin);
-  color: white;
+  color: var(--yellow);
 }
 
 h1 {
-  position: fixed;
   top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 40px;
+}
+
+.fixed {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .planet {
   margin: 1em;
   aspect-ratio: 1;
   border-radius: 50%;
+}
+
+#facts {
+  bottom: 40px;
+  padding: 0.5em 1.5em;
+  max-width: 50%;
+  background-color: var(--raisin);
+  border: 1px var(--yellow) solid;
+  border-radius: 1em;
+  line-height: 1.6;
 }
