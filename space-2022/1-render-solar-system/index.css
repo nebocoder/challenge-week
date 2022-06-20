@@ -22,4 +22,6 @@ body {
 
 .planet {
   margin: 1em;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }

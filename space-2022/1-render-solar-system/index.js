@@ -46,6 +46,19 @@ const planets = [
 // Write a function to render
 // the planets from the planets array using JavaScript.
 
+function renderPlanets() {
+  for (let i = 0; i < planets.length; i++) {
+    const element = planets[i];
+    const planetEl = document.createElement('div');
+    planetEl.classList.add('planet');
+    planetEl.style.width = element.diameter;
+    planetEl.style.background = element.color;
+    solarSystem.appendChild(planetEl);
+  }
+}
+
+renderPlanets();
+
 // Stretch goals:
 // - 1. Show planet facts on hover
 // - 2. Make one side of the planets dark (you can do this with one CSS property!)
