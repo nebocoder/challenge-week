@@ -25,3 +25,4 @@ Weekly Challenges:
 ## Space 2022:
 
 1. [🌌 Solar System](https://scrimba.com/scrim/co15f4c53a360d4280afae129)
+2. [🌌 Galaxy Array](https://scrimba.com/scrim/co7ba440985f7db39e87366a5)
