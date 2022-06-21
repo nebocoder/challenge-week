@@ -17,3 +17,8 @@ body {
   height: 100vh;
   font-size: 2em;
 }
+
+#galaxy {
+  display: flex;
+  flex-wrap: wrap;
+}
