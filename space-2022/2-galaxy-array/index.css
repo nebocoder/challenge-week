@@ -1,0 +1,31 @@
+:root {
+  --pink: #fbe6f4ff;
+  --yellow: #fffad1ff;
+  --green: #e1f0e5ff;
+  --blue: #b5caf9ff;
+  --orange: #f5e6db;
+  --raisin: #2b283aff;
+  --grey: #d4d4d4;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--raisin);
+  color: white;
+}
+
+#galaxy {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#galaxy p {
+  width: 5%;
+  height: 5%;
+  text-align: center;
+}
