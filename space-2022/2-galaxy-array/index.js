@@ -4,10 +4,12 @@
 const galaxy = document.getElementById('galaxy');
 
 function renderStars() {
-  for (let i = 0; i < 100; i++) {
-    galaxy.innerHTML += `<p>⭐</p>`;
+  for (let i = 0; i < 200; i++) {
+    galaxy.innerHTML += `<p style="font-size:${fontSize()}px">⭐</p>`;
   }
 }
+
+const fontSize = () => Math.floor(Math.random() * 32 + 4);
 
 renderStars();
 
