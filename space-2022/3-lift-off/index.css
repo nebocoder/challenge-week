@@ -28,3 +28,13 @@ p {
   font-size: 3rem;
   font-family: 'Roboto Mono', monospace;
 }
+
+.launched {
+  animation: launch 2s ease-in 1 forwards;
+}
+
+@keyframes launch {
+  100% {
+    transform: translateY(-100vh);
+  }
+}
