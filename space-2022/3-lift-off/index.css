@@ -1,0 +1,47 @@
+:root {
+  --pink: #fbe6f4ff;
+  --yellow: #fffad1ff;
+  --green: #e1f0e5ff;
+  --blue: #b5caf9ff;
+  --orange: #f5e6db;
+  --raisin: #2b283aff;
+  --grey: #d4d4d4;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--raisin);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+#rocket {
+  font-size: 48px;
+}
+
+.countdown-display {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.launched {
+  animation: launch 2s ease-in 1 forwards;
+}
+
+@keyframes launch {
+  100% {
+    transform: translateY(-100vh);
+  }
+}
