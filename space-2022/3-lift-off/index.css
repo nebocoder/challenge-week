@@ -37,7 +37,8 @@ p {
 }
 
 .launched {
-  animation: launch 2s ease-in 1 forwards;
+  animation: launch 3s 1 forwards;
+  animation-timing-function: cubic-bezier(0.95, 0, 0.075, 1);
 }
 
 @keyframes launch {
