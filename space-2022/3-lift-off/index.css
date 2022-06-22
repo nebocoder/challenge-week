@@ -9,6 +9,8 @@
 }
 
 body {
+  margin: 0;
+  overflow: hidden;
   background-color: var(--raisin);
   color: white;
   display: flex;
@@ -17,10 +19,15 @@ body {
   align-items: center;
   height: 100vh;
   font-size: 2em;
+  font-weight: bold;
 }
 
 p {
   margin: 0 0 1em;
+}
+
+#rocket {
+  font-size: 48px;
 }
 
 .countdown-display {
