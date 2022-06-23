@@ -1,35 +1,35 @@
 const solarSystem = document.getElementById('solarSystem');
 const planetsObj = [
   {
-    name: 'Mercury',
+    name: '🟤 Mercury',
     moons: 0,
   },
   {
-    name: 'Venus',
+    name: '🟠 Venus',
     moons: 0,
   },
   {
-    name: 'Earth',
+    name: '🌍 Earth',
     moons: 1,
   },
   {
-    name: 'Mars',
+    name: '🔴 Mars',
     moons: 2,
   },
   {
-    name: 'Jupiter',
+    name: '🟡 Jupiter',
     moons: 67,
   },
   {
-    name: 'Saturn',
+    name: '🪐 Saturn',
     moons: 62,
   },
   {
-    name: 'Uranus',
+    name: '⚪ Uranus',
     moons: 27,
   },
   {
-    name: 'Neptune',
+    name: '🔵 Neptune',
     moons: 14,
   },
 ];
@@ -48,7 +48,7 @@ function moonCount(planets) {
     planetsText += `<p><strong>${planet.name}</strong>: ${planet.moons}</p>`;
   }
 
-  planetsText += `<p class="total-moons-p">Total moons: ${totalMoons}</p>`;
+  planetsText += `<hr><p class="total-moons-p"><strong>Total moons: ${totalMoons}<strong></p>`;
 
   solarSystem.innerHTML = planetsText;
 }

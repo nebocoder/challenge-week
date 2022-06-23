@@ -1,6 +1,6 @@
 :root {
   --pink: #fbe6f4ff;
-  --yellow: #fffad1ff;
+  --blue: #fffad1ff;
   --green: #e1f0e5ff;
   --blue: #b5caf9ff;
   --orange: #f5e6db;
@@ -16,8 +16,27 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Inter', sans-serif;
   font-size: 1em;
   padding: 2em;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: radial-gradient(#504683 10px, transparent 10px);
+  background-size: 60px 60px;
+  background-color: var(--raisin);
+}
+
+#solarSystem {
+  line-height: 1.5;
+  padding: 1em 2em;
+  border-radius: 1em;
+  border: none;
+  background: rgba(33, 35, 40, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-shadow: 0 0 5px #000;
 }
 
 .total-moons-p {
