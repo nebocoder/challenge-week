@@ -40,7 +40,7 @@ const planetsObj = [
 
 function moonCount(planets) {
   let planetsText = '';
-  const totalMoons = 0;
+  const totalMoons = planets.map((a) => a.moons).reduce((a, b) => a + b);
 
   for (let i = 0; i < planets.length; i++) {
     const planet = planets[i];
