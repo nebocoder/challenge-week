@@ -28,3 +28,4 @@ Weekly Challenges:
 2. [🌌 Galaxy Array](https://scrimba.com/scrim/co7ba440985f7db39e87366a5)
 3. [🌌 Lift Off](https://scrimba.com/scrim/cob9545a5bfac3b724b2aacbf)
 4. [🌌 Total Moons](https://scrimba.com/scrim/coe9d4af09a44a48d99c1a963)
+5. [🌌 Planetary Update](https://scrimba.com/scrim/coa0b4ff88a7019b2c79339b3)
